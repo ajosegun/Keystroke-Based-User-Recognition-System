@@ -76,7 +76,7 @@ On the next page, select the API Gateway and follow the instructions.
 
 Copy the API endpoint at the end of the process. You can also see the API Gateway trigger on the function page by navigating to "Configuration" and then "Triggers".
   
-<img width="662" alt="image" src="https://user-images.githubusercontent.com/94995067/227770681-9b72ab3d-e5be-4283-b0a1-95a50bff230d.png">
+
 
   
 Test the API on any HTTP client such as Postman.
