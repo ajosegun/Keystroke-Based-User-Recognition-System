@@ -1,6 +1,7 @@
 ## Keystroke-Based User Recognition System (MLOPs)
 
 Read the Objectives [here](./objectives.md)
+
 Follow the AWS Deployment Steps [here](./cloud_deployment.md)
 
 ### Technologies Overview
