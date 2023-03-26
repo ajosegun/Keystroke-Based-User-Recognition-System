@@ -4,6 +4,23 @@ Read the Objectives [here](./objectives.md)
 
 Follow the AWS Deployment Steps [here](./cloud_deployment.md)
 
+| Technology | Purpose |
+| --- | --- |
+| Python | Programming language used for the inference code and other scripts |
+| numpy | Library used for numerical operations in Python |
+| pandas | Library used for data analysis in Python |
+| scikit-learn | Library used for machine learning in Python |
+| Flask | Library used for building APIs in Python |
+| Docker | Tool used for containerization |
+| AWS Lambda | Serverless compute service used to run the inference code |
+| AWS Elastic Container Registry (ECR) | Container image registry used to store and deploy the Docker image |
+| AWS API Gateway | Service used to manage and expose the Lambda function as an API |
+| boto3 | Python library used to interact with AWS services |
+| Jupyter Notebook | Environment used to develop the machine learning models |
+
+
+Technologies
+
 ### System Architecture for Machine Learning Inference
 This system architecture enables serverless inference for machine learning models using Amazon Web Services (AWS) cloud services. The architecture includes several modules and services that work together to provide a seamless experience for HTTP clients that want to use the machine learning models.
 
