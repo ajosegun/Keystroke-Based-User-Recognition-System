@@ -76,6 +76,7 @@ On the next page, select the API Gateway and follow the instructions.
 
 Copy the API endpoint at the end of the process. You can also see the API Gateway trigger on the function page by navigating to "Configuration" and then "Triggers".
   
+<img width="668" alt="image" src="https://user-images.githubusercontent.com/94995067/227771077-8b0373a5-aaeb-49d4-a249-ad5c8b79a645.png">
 
 
   
