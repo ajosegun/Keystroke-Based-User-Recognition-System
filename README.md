@@ -1,4 +1,6 @@
-## ThreatFabric MLOPs challenge
+## Keystroke-Based User Recognition System (MLOPs)
+
+Read the Objectives here
 
 ### System Architecture for Machine Learning Inference
 This system architecture enables serverless inference for machine learning models using Amazon Web Services (AWS) cloud services. The architecture includes several modules and services that work together to provide a seamless experience for HTTP clients that want to use the machine learning models.
