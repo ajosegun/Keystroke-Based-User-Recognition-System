@@ -1,8 +1,9 @@
 ## Keystroke-Based User Recognition System (MLOPs)
 
 Read the Objectives [here](./objectives.md)
-
 Follow the AWS Deployment Steps [here](./cloud_deployment.md)
+
+### Technologies Overview
 
 | Technology | Purpose |
 | --- | --- |
@@ -19,9 +20,8 @@ Follow the AWS Deployment Steps [here](./cloud_deployment.md)
 | Jupyter Notebook | Environment used to develop the machine learning models |
 
 
-Technologies
-
 ### System Architecture for Machine Learning Inference
+
 This system architecture enables serverless inference for machine learning models using Amazon Web Services (AWS) cloud services. The architecture includes several modules and services that work together to provide a seamless experience for HTTP clients that want to use the machine learning models.
 
 <img width="517" alt="image" src="https://user-images.githubusercontent.com/94995067/227769215-12e9a465-7818-4e22-9021-2cbbe9d6d928.png">
