@@ -66,7 +66,7 @@ Go to the AWS Lambda page and create a new lambda function. Select "Container Im
 
 On the function overview page, click "Add Trigger".
   
-  <img width="662" alt="image" src="https://user-images.githubusercontent.com/94995067/227770732-d2bef819-146a-45a5-ac4c-60625d7cc0e1.png">
+<img width="668" alt="image" src="https://user-images.githubusercontent.com/94995067/227770983-9c9dfe73-3c23-470b-a5bf-438656fdd2ba.png">
 
 
 On the next page, select the API Gateway and follow the instructions.
