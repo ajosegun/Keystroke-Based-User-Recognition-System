@@ -35,15 +35,6 @@ The architecture is shown in Figure 1, which provides a comprehensive diagram of
 4. A lambda function was created to perform the serverless inference.
 5. An Amazon API Gateway receives requests from HTTP clients and triggers the lambda function.
 
-### Modules and Services
-The system architecture comprises the following modules and services:
-
-1. Jupyter Notebook: Used to create machine learning models and export them as pickle files.
-2. Docker: Used to package the inference code and the model into a container image.
-3. Amazon ECR: A fully-managed Docker container registry that enables storage, management, and deployment of Docker container images.
-4. AWS Lambda: A serverless compute service that executes code in response to events and automatically manages the computing resources required by the code.
-5. Amazon API Gateway: A fully-managed service that enables the creation, deployment, and management of APIs for REST and WebSocket protocols.
-
 ### How to Use
 To use this system architecture for serverless inference with machine learning models, follow these steps:
 
