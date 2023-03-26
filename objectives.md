@@ -6,6 +6,7 @@ The objective is to build and deploy a Machine learning model for user recogniti
 The objective of this part is building ML models for user recognition based on their keystroke data. keystroke dynamics is a behavioural biometric which utilizes the unique way a person types to verify the identity of an individual. Typing patterns are predominantly extracted from computer keyboards. the patterns used in keystroke dynamics are derived mainly from the two events that make up a keystroke: the Key-Press and Key-Release. The Key-Press event takes place at the initial depression of a key and the Key-Release occurs at the subsequent release of that key.
 
 In this step, a dataset of keystroke information of users is given with following information: 
+
 • Train_keystroke.csv: in this dataset the keystroke data from 110 users are collected. All users are asked to type a 13-length constant string 8 times and the keystroke data (key- press time and key-release time for each key) are collected. The data set contains 880 rows and 27 columns. The first column indicates UserID, and the rest shows the press and
 release time for first to 13th character. 
 
@@ -24,6 +25,7 @@ This API gets inputs as json format and return the prediction result.
 The input for API should contains the model type (SVM, RF, XGB) and mean and std of HT, RPT, PPT and RRT. 
 
 The sample format of input is as follow:
+```
 {
   “Model”: “RF”,
   "HT": {
@@ -43,6 +45,7 @@ The sample format of input is as follow:
           “STD”: 47.12
           }
 }
+```
 
 When The API is called with propriate inputs, it should load the related model (based on “Model” value in input) and predict the UserID and return it.
 
