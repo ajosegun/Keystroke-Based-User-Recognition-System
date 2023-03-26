@@ -61,17 +61,21 @@ Replace <awsaccountid> with your AWS account ID.
 Go to the AWS Console and navigate to the AWS ECR page to verify that the repository with the image has been created.
 
 Go to the AWS Lambda page and create a new lambda function. Select "Container Image" and browse the images to select the image you uploaded to ECR.
+  
 <img width="453" alt="image" src="https://user-images.githubusercontent.com/94995067/227770743-cfe759fb-5326-43a2-a538-4b06ef879bd0.png">
 
 On the function overview page, click "Add Trigger".
+  
   <img width="662" alt="image" src="https://user-images.githubusercontent.com/94995067/227770732-d2bef819-146a-45a5-ac4c-60625d7cc0e1.png">
 
 
 On the next page, select the API Gateway and follow the instructions.
+  
   <img width="453" alt="image" src="https://user-images.githubusercontent.com/94995067/227770691-7fdbf012-f8ec-4a35-8fd6-0dbdb8510a47.png">
 
 
 Copy the API endpoint at the end of the process. You can also see the API Gateway trigger on the function page by navigating to "Configuration" and then "Triggers".
+  
 <img width="662" alt="image" src="https://user-images.githubusercontent.com/94995067/227770681-9b72ab3d-e5be-4283-b0a1-95a50bff230d.png">
 
   
