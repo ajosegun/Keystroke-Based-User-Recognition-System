@@ -28,10 +28,10 @@ The system architecture comprises the following modules and services:
 ### How to Use
 To use this system architecture for serverless inference with machine learning models, follow these steps:
 
-1. Create machine learning models using a Jupyter Notebook and export them as pickle files.
-2. Write inference code in Python and package it with the model in a Docker container image.
-3. Upload the container image to Amazon ECR.
-4. Create a lambda function to perform the serverless inference using the container image from Amazon ECR.
-5. Create an API Gateway that receives requests from HTTP clients and triggers the lambda function.
+1. Create machine learning models using this [Jupyter Notebook](./model.ipynb) and export them as pickle files.
+2. The inference code is written Python ([Flask](./app.py) and [AWS Lambda](./lambda_function.py)), and packaged with the model in a Docker container image.
+4. Upload the container image to Amazon ECR.
+5. Create a lambda function (lambda_function.py) to perform the serverless inference using the container image from Amazon ECR.
+6. Create an API Gateway that receives requests from HTTP clients and triggers the lambda function.
 
 After completing these steps, you will have a fully-functional system that can perform serverless inference with machine learning models.
